@@ -84,19 +84,19 @@ class Colors {
   }
 
   static success(text) {
-    return this.colorize(text, "green");
+    return Colors.colorize(text, "green");
   }
   static error(text) {
-    return this.colorize(text, "red");
+    return Colors.colorize(text, "red");
   }
   static warning(text) {
-    return this.colorize(text, "yellow");
+    return Colors.colorize(text, "yellow");
   }
   static info(text) {
-    return this.colorize(text, "cyan");
+    return Colors.colorize(text, "cyan");
   }
   static dim(text) {
-    return this.colorize(text, "dim");
+    return Colors.colorize(text, "dim");
   }
 }
 
