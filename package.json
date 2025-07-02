@@ -1,6 +1,6 @@
 {
   "name": "@thinkeloquent/cli-progressor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Advanced CLI Progress Bar System with Strategy Pattern Architecture",
   "main": "main.mjs",
   "type": "module",
@@ -12,7 +12,8 @@
     "demo": "node main.mjs",
     "test": "node --test",
     "lint": "echo 'Add ESLint configuration'",
-    "dev": "node --watch main.mjs"
+    "dev": "node --watch main.mjs",
+    "npmPublish": "npm publish --access public"
   },
   "keywords": [
     "cli",
